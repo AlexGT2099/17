@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { /*aplica para todo el navergador*/
+	margin: 0;	
+	padding: 0;
+	
+}
+
+nav {  /*barra de navegacion*/
+	width: 100%;
+	height: 60px;
+	background-color:#90C;
+	position:fixed; /*para mantener la barra de menu fija*/
+}
+
+.iconos { 
+line-height:60px;
+margin-left: 200px;
+}
+
+ul {
+	margin-left: 400px;		/*margen izquierdo espacio para icono*/
+}
+
+ul li{ 
+	list-style: none; 		/*para retirar los puntos para ennumerar*/
+	display:inline-block;	/*para enlistar los botones horizontalmente*/
+	float:left;				/*para eliminar los espacios entre los elementos*/
+	line-height:40px;		/*misma altura que la barra de navegacion, centra el texto dentro de nav-bar*/
+							/*un poco menos PARA ALINEAR A LA MISMA ALTURA QUE LOS ICONOS*/
+}
+
+ul li a { 
+	display:block;
+	text-decoration: none;	/*para retirar el subrayado*/
+	font-size:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #fff;
+	padding: 0 20px;		/*da espacio entre los elementos de la barra de navegacion*/
+	margin: 10px auto 0 4px; /*AUN POR ARREGLAR*/
+}
+
+ul li a:hover { 
+	color: #F00;
+	font-size:24px;
+		
+}
